@@ -1,0 +1,23 @@
+.item-detail {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 2rem;
+  background-color: #fff;
+  width: 100%;
+  max-width: 400px;
+  margin: 2rem auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.item-detail-title {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.item-detail-price {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+}

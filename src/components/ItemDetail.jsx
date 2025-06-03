@@ -1,10 +1,11 @@
 import ItemCount from "./ItemCount";
+import "./ItemDetail.css";
 
 const ItemDetail = ({ producto }) => {
   return (
-    <div className="card">
-      <h2>{producto.nombre}</h2>
-      <p>Precio: ${producto.precio}</p>
+    <div className="item-detail">
+      <h2 className="item-detail-title">{producto.nombre}</h2>
+      <p className="item-detail-price">Precio: ${producto.precio}</p>
       <ItemCount />
     </div>
   );
